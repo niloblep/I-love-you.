@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div class="doodle doodle-heart">♡</div>
+<div class="doodle doodle-star">✧</div>
+<div class="doodle doodle-flower">✿</div>
+<div class="doodle doodle-cloud">☁︎</div>
+<div class="doodle doodle-bow">୨୧</div>
+<div class="doodle doodle-sparkle">✦</div>
+
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+
+
+
+<div class="floating-heart heart1">♡</div>
+<div class="floating-heart heart2">♥</div>
+<div class="floating-heart heart3">♡</div>
+
+<main>
+<section class="hero">
+<p class="tiny-text">a little something for you...</p>
+
+<h1>Hi, Sakil💕</h1>
+
+<p class="subtitle">
+I made a tiny corner of the internet just for you.
+</p>
+
+<button onclick="openLetter()">
+Open this 💌
+</button>
+
+<div class="music-player">
+
+<button id="musicButton" onclick="toggleMusic()">
+🎵 Play our song
+</button>
+
+<audio id="ourSong" loop>
+<source src="style.mp3" type="audio/mpeg">
+</audio>
+
+</div>
+
+<div id="letter" class="letter">
+<p>
+You found it! ♡
+</p>
+
+<p>
+I hope this little website makes you smile.
+</p>
+</div>
+</section>
+
+<section class="affirmations">
+<p class="tiny-text">a reminder for you</p>
+
+<h2>You are...</h2>
+
+<div class="affirmation-card">
+<p>♡ So loved by me</p>
+</div>
+
+
+
+<div class="affirmation-card">
+<p>♡ So important to me</p>
+</div>
+
+<div class="affirmation-card">
+<p>♡ Enough for me</p>
+</div>
+
+<div class="affirmation-card" onclick="changeAffirmation(this)">
+<p>♡ Also tap this</p>
+</div>
+
+</section>
+
+<section class="beginning">
+
+<p class="tiny-text">where our story begins ♡</p>
+
+<h2>11 • 08 • 2026</h2>
+
+<p>
+The day our little story began.</br>
+
+(Although we'd been talking for a while teehee)
+</p>
+
+<div class="big-heart">♡</div>
+
+</section>
+
+<section class="future">
+
+<p class="tiny-text">things I can't wait for ♡</p>
+
+<h2>Until We Meet</h2>
+
+<p class="future-intro">
+There are so many little things I can't wait to experience with you.
+</p>
+
+<div class="future-card">
+<span>♡</span>
+<h3>Our first hug</h3>
+<p>The one I've been waiting for.</p>
+</div>
+
+<div class="future-card">
+<span>✿</span>
+<h3>Our first proper date</h3>
+<p>Just us, finally in the same place.</p>
+</div>
+
+<div class="future-card">
+<span>★</span>
+<h3>Taking silly pictures</h3>
+<p>Way too many of them, obviously.</p>
+</div>
+
+<div class="future-card">
+<span>☁</span>
+<h3>Watching something together</h3>
+<p>Except this time, sitting next to each other.</p>
+</div>
+
+</section>
+
+
+<section class="letters">
+
+<p class="tiny-text">for whenever you need one ♡</p>
+
+<h2>Open When...</h2>
+
+<div class="envelope" onclick="openEnvelope('miss')">
+🌟
+<h3>you miss me</h3>
+</div>
+
+<div class="envelope" onclick="openEnvelope('bad')">
+🌟
+<h3>you've had a bad day</h3>
+</div>
+
+<div class="secret">♡</div>
+
+<div id="secretMessage"></div>
+
+<div class="envelope" onclick="openEnvelope('mad')">
+🌟
+<h3>you're mad at me</h3>
+</div>
+
+<div class="envelope" onclick="openEnvelope('sleep')">
+🌟
+<h3>you can't sleep</h3>
+</div>
+
+<div id="letterMessage" class="hidden-letter"></div>
+
+</section>
+<section class="little-things">
+
+<p class="tiny-text">our little universe ♡</p>
+
+<h2>Little Things</h2>
+
+<div class="fact">
+<h3>♡ Our beginning</h3>
+<p>August 11, 2026</p>
+</div>
+
+<div class="fact">
+<h3>♡ My nickname for you</h3>
+<p>mera kiwtie, although aru bohut ase nickname</p>
+</div>
+
+<div class="fact">
+<h3>♡ Our song!</h3>
+<p>Style- Taylor Swift</p>
+</div>
+
+<div class="fact">
+<h3>♡ My favourite thing about you</h3>
+<p>Your smile omghhh</p>
+</div>
+
+</section>
+<section class="ending">
+
+<p class="tiny-text">you made it to the end ♡</p>
+
+<h2>One Last Thing...</h2>
+
+<p>
+This is only the beginning of our story.
+</p>
+
+<button onclick="finalSurprise()">
+Don't click this ♡
+</button>
+
+<div id="finalMessage"></div>
+
+</section>
+
+</main>
+<script src="script.js"></script>
+</body>
+</html>
+
+
